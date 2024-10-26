@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssCronometro.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div id="cronometro">
+        <h2 id="tempo">
+            00:00:00:00
+        </h2>
+
+        <div id="botoesAcao">
+
+            <button id="reset">
+                <span class="material-icons">
+                    <span class="material-icons">refresh</span>
+            </button>
+
+            <button id="StartPause" action="start">
+                <span class="material-icons">play_arrow</span>
+            </button>
+
+            <button id="marcacao">
+                <span class="material-icons">flag</span>
+            </button>
+            
+        </div>
+
+        <div id="listamarcacao"></div>
+    </div>
+    <script src="scriptCronometro.js"></script>
+</body>
+</html>
